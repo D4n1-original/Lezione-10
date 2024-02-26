@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="contenitore">
+        <p class="testo">Primo paragrafo</p>
+        <p class="testo">Secondo paragrafo</p>
+        <div>
+            <span>Testo in uno span</span>
+        </div>
+    </div>
+    <button onclick="allerta()" id="bottone">Cliccami</button>
+    <button onclick="toggleClass()">Aggiungi una classe</button>
+
+    <div id="nuovoContenuto" style="display: none;">
+        <h1>Elenco</h1>
+    </div>
+
+    <button onclick="aggiungiElemento()">Aggiungi elemento alla lista</button>
+    <button onclick="rimuoviElemento()">Rimuovi elemento dalla lista</button>
+    <button onclick="soloUnElemento()">aggiungi un solo elemento</button>
+    <button onclick="toggleSezione()">Mostra/Nascondi sezione</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

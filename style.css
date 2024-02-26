@@ -1,0 +1,9 @@
+.acceso {
+    background-color: blue;
+    color:antiquewhite;
+}
+
+#nuovoContenuto {
+    min-height: 300px;
+    background-color: aquamarine;
+}
